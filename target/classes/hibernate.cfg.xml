@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/HotelManagementSystem_db</property>
+        <property name="connection.username">user123</property>
+        <property name="connection.password">user123</property>
+
+        <!-- Other Hibernate configuration properties -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <!-- Mapping Entity Classes -->
+        <mapping class="hotelmanagementsystem.model.Hotel"></mapping>
+        <mapping class="hotelmanagementsystem.model.Room"></mapping>
+        <mapping class="hotelmanagementsystem.model.Reservation"></mapping>
+        <mapping class="hotelmanagementsystem.model.Guest"></mapping>
+
+    </session-factory>
+
+</hibernate-configuration>
