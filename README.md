@@ -43,7 +43,7 @@ Phần mềm sẽ giúp quản lý dịch vụ, chi phí của khách hàng khi 
    Bước 4: Đăng Nhập:  
        + User    : admin  
        + Password: admin  
-   ![Login]([img]https://i.imgur.com/lET05GH.png[/img])  
+   ![Login](https://i.imgur.com/lET05GH.png)  
    Bước 5: Sử dụng các tính năng ở bên trong  
 
    
