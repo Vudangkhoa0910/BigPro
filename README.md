@@ -6,7 +6,6 @@
 * [Mô tả](#Mô-tả)
 * [Tính năng](#Tính-năng)
 * [Hướng Dẫn Sử Dụng](#Hướng-Dẫn-Sử-Dụng)
-* [Bugs và các vấn đề](#Bugs-và-các-vấn-đề)
 * [Code Nguồn Phát Triển](#Code-Nguồn-Phát-Triển)
 
 ## Thành viên
