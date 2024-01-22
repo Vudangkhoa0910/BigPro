@@ -36,15 +36,15 @@ Phần mềm sẽ giúp quản lý dịch vụ, chi phí của khách hàng khi 
    + [Apache Netbeans từ version 19 trở lên] (https://netbeans.apache.org/front/main/download/nb20/)
 
 2. Hướng dẫn chi tiết:
-   Bước 1: Clone Project về máy bằng Terminal hoặc Dowload file .zip
-       + Win/Mac/Linux: git clone ...
-   Bước 2: Mở Project nên ở trên Apache NetBeans
-   Bước 3: Vào package qlkh -> chuột phải App.java -> Chọn Runcode.
-   Bước 4: Đăng Nhập:
-       + User    : admin
-       + Password: admin
-   ![Login](https://imgur.com/a/2TbZoND)
-   Bước 5: Sử dụng các tính năng ở bên trong
+   Bước 1: Clone Project về máy bằng Terminal hoặc Dowload file .zip  
+       + Win/Mac/Linux: git clone ...  
+   Bước 2: Mở Project nên ở trên Apache NetBeans  
+   Bước 3: Vào package qlkh -> chuột phải App.java -> Chọn Runcode.  
+   Bước 4: Đăng Nhập:  
+       + User    : admin  
+       + Password: admin  
+   ![Login]([img]https://i.imgur.com/lET05GH.png[/img])  
+   Bước 5: Sử dụng các tính năng ở bên trong  
 
    
        
