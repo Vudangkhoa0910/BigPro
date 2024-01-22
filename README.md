@@ -1,59 +1,57 @@
-<<<<<<< HEAD
-# BigProjectJava
+BIGPROJECT: QUẢN LÝ ĐẶT PHÒNG KHÁCH SẠN 🏨🚪🛌🛎️
 
-Xin chao tat ca moi nguoi, chung minh la 3 dan choi
-OOP
-=======
-# Hotel Management System
+## Nội dung
 
-## Description
+* [Thành viên](#Thành-viên)
+* [Mô tả](#Mô-tả)
+* [Tính năng](#Tính-năng)
+* [Hướng Dẫn Sử Dụng](#Hướng-Dẫn-Sử-Dụng)
+* [Bugs và các vấn đề](#Bugs-và-các-vấn-đề)
+* [Giấy phép](#Giấy-phép)
 
-This Hotel Management System is a Java-based application designed to streamline and facilitate the management of hotels, rooms, reservations, and guests. Leveraging the power of Hibernate and JDBC, it provides a user-friendly interface for performing essential operations within a hotel environment.
+##**Thành viên**
+>+ Vũ Đăng Khoa - 22010357
+>+ Nguyễn Thị Hạnh - 22010503
+>+ Vũ Văn Mạnh - 22010497
 
-### Key Features
+##**Mô tả:**
+Phần mềm sẽ giúp quản lý dịch vụ, chi phí của khách hàng khi đặt phòng:
+    + Quản lý thông tin khách hàng
+    + Quản lý thời gian sử dụng
+    + Tính toán chi phí
+    + Sử dụng ngôn ngữ Java
+    + Lưu trữ dữ liệu khách hàng bằng file XML
 
-- **Efficient Hotel Operations:** Perform CRUD (Create, Read, Update, Delete) operations on hotels, enabling seamless management of hotel information including name, location, and other details.
-- **Comprehensive Room Management:** Handle rooms efficiently by adding, deleting, and retrieving room information, facilitating a structured room management system.
-- **Reservation Control:** Enable the creation, deletion, and retrieval of reservations, ensuring a structured system for managing bookings within the hotel.
-- **Guest Management:** Facilitate the addition, removal, and retrieval of guest information, ensuring a well-organized guest database.
+##**Tính năng:**
+1. Đặt phòng
+2. Xem thông tin khách hàng 
+3. Tìm kiếm khách hàng
+4. Tính tiền phòng
+5. Sắp xếp thông tin theo Số thứ tự hoặc theo tên
+6. Thêm, xoá khi cần sử dụng
 
-## Purpose
+##**Hướng dẫn sử dụng**:
+1. Môi trường:
+   + [Phầm mềm cung cấp môi trường JDK 21] (https://www.oracle.com/java/technologies/downloads/)
+   + [Apache Netbeans từ version 19 trở lên] (https://netbeans.apache.org/front/main/download/nb20/)
 
-This system aims to provide hotel administrators or management staff with a centralized platform to efficiently handle crucial aspects of hotel administration. From maintaining hotel data to managing reservations and guest information, the system aims to simplify complex operations in the hospitality industry.
+2. Hướng dẫn chi tiết:
+   Bước 1: Clone Project về máy bằng Terminal hoặc Dowload file .zip
+       + Win/Mac/Linux: git clone ...
+   Bước 2: Mở Project nên ở trên Apache NetBeans
+   Bước 3: Vào package qlkh -> chuột phải App.java -> Chọn Runcode.
+   Bước 4: Đăng Nhập:
+       + User    : admin
+       + Password: admin
+   ![Login](https://imgur.com/a/2TbZoND)
+   Bước 5: Sử dụng các tính năng ở bên trong
 
-## Usage Scenario
+   
+       
+     
+     
 
-This application can be utilized by hotel managers, staff, or administrative personnel who need a straightforward and efficient system to manage hotel-related information. It simplifies the process of handling reservations, room allocation, and guest management, thereby enhancing the overall efficiency of hotel operations.
 
-## Technical Overview
 
-The system utilizes Hibernate and JDBC for database interactions, ensuring a robust and reliable database management system. Its modular structure allows for easy scalability and potential integration with other systems or modules in the future.
 
-### Setup
 
-1. **Database Configuration**
-    - Ensure your database settings are correctly configured in the `hibernate.cfg.xml` file.
-2. **Dependencies**
-    - This project uses Hibernate and JDBC. Ensure you have the necessary libraries added to your classpath.
-3. **Run the Application**
-    - Locate the `HotelManagementSystemServiceClass` and execute the `displayHotelManagementSystemMenu` method to start the system.
-
-### Usage Instructions
-
-1. Upon running the application, a menu will be displayed with options to navigate through different operations.
-2. Choose a specific operation by entering the corresponding number and follow the prompts for data input.
-
-#### Examples
-
-- **Adding a New Hotel**
-    1. Select Hotel Operations from the main menu.
-    2. Choose "Add New Hotel" and provide the required details when prompted.
-- **Finding a Guest by ID**
-    1. Navigate to Guest Operations.
-    2. Choose "Find Guest By ID" and enter the guest ID when prompted.
-
-### Important Notes
-
-- Ensure proper data input to prevent errors and exceptions.
-- Check the console for any error messages or system prompts during operation.
->>>>>>> eea30ec (Up test file)
